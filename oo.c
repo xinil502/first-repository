@@ -4,22 +4,21 @@ int it(int n,int x, int y);
 
 int main()
 {
-    int a,y,x;
+        int a,y,x;
 
-    scanf("%d",&a);
+        scanf("%d",&a);
 
-	{
-		for(y=1;y<=a;y++)
-	    {
+        for(y=1;y<=a;y++)
+        {
 	    	for(x=1;x<=a;x++)
 	    	{
 	    		printf("%4d",it(a,x,y));
 			}
 			printf("\n");
 		}
-	}
+        }
 
-    return 0;
+        return 0;
 }
 
 int it(int n, int x,int y)
